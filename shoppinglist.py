@@ -6,7 +6,16 @@ def add_item():
    print(f"add your item") 
    shoppinglist.append (item)
 
-add_item()
 
-def show_shoppinglist():
-   
+#Check the shoppinglist is empty
+def check_shoppinglist():
+   if not shoppinglist:
+      print("your shoppinglist is empty")
+   else: 
+      print("your shoppinglist")
+      for item in shoppinglist:
+         print (item)
+
+
+add_item()
+check_shoppinglist()
