@@ -7,3 +7,6 @@ def add_item():
    shoppinglist.append (item)
 
 add_item()
+
+def show_shoppinglist():
+   
