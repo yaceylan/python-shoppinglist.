@@ -19,3 +19,19 @@ def check_shoppinglist():
 
 #add_item()
 
+while 2 == 2:
+   print("-----Einkaufliste-----")
+   print("1. Artikel zur Einkaufsliste hinzufügen")
+   print("2. Artikel zur Einkaufsliste")
+   print("3. Programm beenden")
+   choice = input("Was möchten Sie tun?")
+   if choice == "1": 
+      add_item()
+   elif choice == "2":
+      check_shoppinglist()
+   elif choice == "3":
+      break 
+
+   print("---Ende des Programm---")
+
+
